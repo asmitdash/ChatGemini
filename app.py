@@ -75,7 +75,7 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config(page_title="Chat with Your PDFs")
+    st.set_page_config(page_title="Chat with Your PDFs by DASH")
     st.header("Chat with Multiple PDF using Gemini👾")
 
     user_question = st.text_input("Ask a question from the PDF files")
@@ -93,26 +93,6 @@ def main():
                 get_vector_store(text_chunks)
                 st.success("PDFs have been processed, ask your questions.")
 
-    # Adding the footer message
-    st.markdown(
-        """
-        <style>
-        .footer {
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: grey;
-            color: white;
-            text-align: center;
-        }
-        </style>
-        <div class="footer">
-            <p>made by dash</p>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
 
 if __name__ == "__main__":
     main()
