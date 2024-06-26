@@ -91,8 +91,10 @@ def main():
                 raw_text = get_pdf_text(pdf_docs)
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
-                st.success("PDFs has been processed, ask your questions.")
-     st.markdown(
+                st.success("PDFs have been processed, ask your questions.")
+
+    # Adding the footer message
+    st.markdown(
         """
         <style>
         .footer {
@@ -111,9 +113,6 @@ def main():
         """,
         unsafe_allow_html=True
     )
-
-
-
 
 if __name__ == "__main__":
     main()
