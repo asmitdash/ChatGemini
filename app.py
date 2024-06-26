@@ -92,6 +92,25 @@ def main():
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
                 st.success("PDFs has been processed, ask your questions.")
+     st.markdown(
+        """
+        <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: white;
+            color: black;
+            text-align: center;
+        }
+        </style>
+        <div class="footer">
+            <p>made by dash</p>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 
 
 
