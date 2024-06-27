@@ -31,10 +31,6 @@
 > - [ Getting Started](#-getting-started)
 >   - [ Installation](#-installation)
 >   - [ Running ChatGemini](#-running-ChatGemini)
->   - [ Tests](#-tests)
-> - [ Project Roadmap](#-project-roadmap)
-> - [ Contributing](#-contributing)
-> - [ License](#-license)
 > - [ Acknowledgments](#-acknowledgments)
 
 ---
@@ -75,7 +71,7 @@ ChatGemini is a Streamlit web application that allows users to upload multiple P
 
 | File                                                                                     | Summary                                      |
 | ---                                                                                      | ---                                          |
-| [requirements.txt](https://github.com/asmitdash/ChatGemini/blob/master/requirements.txt) | Tists all the Python packages that are required for your project to run. |
+| [requirements.txt](https://github.com/asmitdash/ChatGemini/blob/master/requirements.txt) | Lists all the Python packages that are required for your project to run. |
 | [app.py](https://github.com/asmitdash/ChatGemini/blob/master/app.py)                     | This file contains the main logic and functionality of your Streamlit web application.           |
 
 </details>
