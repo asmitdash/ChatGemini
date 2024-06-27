@@ -105,7 +105,6 @@ streamlit run app.py
 
 
 
-##  Acknowledgments
 
 ## Acknowledgements
 
