@@ -22,18 +22,7 @@
 </p>
 <hr>
 
-##  Quick Links
 
-> - [ Overview](#-overview)
-> - [ Features](#-features)
-> - [ Repository Structure](#-repository-structure)
-> - [ Modules](#-modules)
-> - [ Getting Started](#-getting-started)
->   - [ Installation](#-installation)
->   - [ Running ChatGemini](#-running-ChatGemini)
-> - [ Acknowledgments](#-acknowledgments)
-
----
 
 ##  Overview
 
