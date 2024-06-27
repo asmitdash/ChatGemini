@@ -14,7 +14,7 @@
 	<img src="https://img.shields.io/github/languages/count/asmitdash/ChatGemini?style=flat&color=0080ff" alt="repo-language-count">
 <p>
 <p align="center">
-		<em>Developed with the software and tools below.</em>
+		
 </p>
 <p align="center">
 	<img src="https://img.shields.io/badge/Streamlit-FF4B4B.svg?style=flat&logo=Streamlit&logoColor=white" alt="Streamlit">
@@ -41,13 +41,17 @@
 
 ##  Overview
 
-HTTP error 401 for prompt `overview`
+ChatGemini is a Streamlit web application that allows users to upload multiple PDF files and ask questions about their content. The application leverages Google Gemini, LangChain, and FAISS to process PDF text, create embeddings, and provide answers based on user queries.
 
 ---
 
 ##  Features
 
-HTTP error 401 for prompt `features`
+- Upload multiple PDF files and process their content.
+- Split PDF text into manageable chunks using LangChain.
+- Generate embeddings for text chunks using Google Gemini.
+- Store and retrieve embeddings efficiently using FAISS.
+- Answer user questions based on the processed PDF content.
 
 ---
 
@@ -71,8 +75,8 @@ HTTP error 401 for prompt `features`
 
 | File                                                                                     | Summary                                      |
 | ---                                                                                      | ---                                          |
-| [requirements.txt](https://github.com/asmitdash/ChatGemini/blob/master/requirements.txt) | HTTP error 401 for prompt `requirements.txt` |
-| [app.py](https://github.com/asmitdash/ChatGemini/blob/master/app.py)                     | HTTP error 401 for prompt `app.py`           |
+| [requirements.txt](https://github.com/asmitdash/ChatGemini/blob/master/requirements.txt) | Tists all the Python packages that are required for your project to run. |
+| [app.py](https://github.com/asmitdash/ChatGemini/blob/master/app.py)                     | This file contains the main logic and functionality of your Streamlit web application.           |
 
 </details>
 
@@ -84,7 +88,7 @@ HTTP error 401 for prompt `features`
 
 Ensure you have the following dependencies installed on your system:
 
-* **Python**: `version x.y.z`
+* **Python**: `version 3.12.4`
 
 ###  Installation
 
@@ -111,74 +115,22 @@ pip install -r requirements.txt
 Use the following command to run ChatGemini:
 
 ```sh
-python main.py
+streamlit run app.py
 ```
 
-###  Tests
 
-To execute tests, run:
-
-```sh
-pytest
-```
-
----
-
-##  Project Roadmap
-
-- [X] `► INSERT-TASK-1`
-- [ ] `► INSERT-TASK-2`
-- [ ] `► ...`
-
----
-
-##  Contributing
-
-Contributions are welcome! Here are several ways you can contribute:
-
-- **[Submit Pull Requests](https://github.com/asmitdash/ChatGemini/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
-- **[Join the Discussions](https://github.com/asmitdash/ChatGemini/discussions)**: Share your insights, provide feedback, or ask questions.
-- **[Report Issues](https://github.com/asmitdash/ChatGemini/issues)**: Submit bugs found or log feature requests for Chatgemini.
-
-<details closed>
-    <summary>Contributing Guidelines</summary>
-
-1. **Fork the Repository**: Start by forking the project repository to your GitHub account.
-2. **Clone Locally**: Clone the forked repository to your local machine using a Git client.
-   ```sh
-   git clone https://github.com/asmitdash/ChatGemini
-   ```
-3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
-   ```sh
-   git checkout -b new-feature-x
-   ```
-4. **Make Your Changes**: Develop and test your changes locally.
-5. **Commit Your Changes**: Commit with a clear message describing your updates.
-   ```sh
-   git commit -m 'Implemented new feature x.'
-   ```
-6. **Push to GitHub**: Push the changes to your forked repository.
-   ```sh
-   git push origin new-feature-x
-   ```
-7. **Submit a Pull Request**: Create a PR against the original project repository. Clearly describe the changes and their motivations.
-
-Once your PR is reviewed and approved, it will be merged into the main branch.
-
-</details>
-
----
-
-##  License
-
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
-
----
 
 ##  Acknowledgments
 
-- List any resources, contributors, inspiration, etc. here.
+## Acknowledgements
 
-[**Return**](#-quick-links)
+- [Streamlit](https://streamlit.io/)
+- [PyPDF2](https://pypi.org/project/PyPDF2/)
+- [LangChain](https://github.com/langchain-ai/langchain)
+- [Google Generative AI](https://github.com/google/generative-ai-python)
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [Python Dotenv](https://github.com/theskumar/python-dotenv)
+
+
 
 ---
