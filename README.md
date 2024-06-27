@@ -118,3 +118,10 @@ streamlit run app.py
 
 
 ---
+
+## Deployed Application
+
+The ChatGemini application is deployed and accessible online. You can visit the deployed version using the following link:
+
+[ChatGemini Deployed Application](https://chatting-with-gemini.streamlit.app/)
+
