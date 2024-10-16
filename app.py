@@ -75,8 +75,8 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config(page_title="Chat with Your PDFs by DASH")
-    st.header("Chat with Multiple PDF using Gemini👾")
+    st.set_page_config(page_title="Smart Book Interaction System")
+    st.header("Smart Book Interaction System")
 
     user_question = st.text_input("Ask a question from the PDF files")
 
@@ -91,7 +91,7 @@ def main():
                 raw_text = get_pdf_text(pdf_docs)
                 text_chunks = get_text_chunks(raw_text)
                 get_vector_store(text_chunks)
-                st.success("PDFs have been processed, ask your questions.")
+                st.success("Books have been processed, ask your questions.")
 
 
 if __name__ == "__main__":
