@@ -75,8 +75,8 @@ def user_input(user_question):
 
 
 def main():
-    st.set_page_config(page_title="Smart Book Interaction System")
-    st.header("Smart Book Interaction System")
+    st.set_page_config(page_title="Chat with PDF")
+    st.header("Chat with PDF")
 
     user_question = st.text_input("Ask a question from the PDF files")
 
